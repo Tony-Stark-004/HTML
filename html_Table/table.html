@@ -1,0 +1,119 @@
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <Title> Table </Title>
+    <link rel="shortcut icon" href="../image/Table.jpg" type="image/x-icon">
+
+    <!-- border collapse Used For removing border boundary giving single boundary -->
+    <style>
+   
+        table,th,td {
+    
+        border: 1px solid black;            
+        background-color: lemonchiffon;
+        color: black;
+        border-collapse: collapse;           
+    
+       }
+    
+    </style>
+
+</head>
+
+<body>
+    
+<table>                                    <!-- Table -->
+<caption> Table 1 </caption>               <!-- by deafault caption text is at center -->
+        
+<thead>                                    <!-- Table head -->
+  <tr>                                     <!-- Table Row -->
+    <th> Name </th>                        <!-- table header -->
+    <th> Roll Number </th>
+  </tr>
+</thead>
+        
+<tbody>
+  
+  <tr>
+    <td> Aditya </td>                     <!-- Table Data -->
+    <td> 04 </td>
+  </tr>
+            
+  <tr>
+    <td> Vishal </td>
+    <td> 05 </td>   
+  </tr>
+
+</tbody>
+</table>
+        
+<hr />
+<br />
+        
+<table> 
+<caption style="caption-side: bottom;"> Table 2 </caption>       <!--  caption text is at bottom -->
+        
+<thead>                                   
+<tr>                                       
+ <th> Name </th>                        
+ <th> Roll Number </th>
+</tr>
+ </thead>
+                
+<tbody>
+  <tr>
+<td> Aditya </td>                   
+<td> 04 </td>
+ </tr>
+                    
+  <tr>
+ <td> Vishal </td>
+<td> 05 </td>   
+  </tr>
+</tbody>
+
+</table>
+        
+<hr />
+<br />
+                
+<table> 
+<caption style="text-align: right;"> Table 3 </caption>   <!-- align test which table 3 in right --> 
+
+<thead>                                   
+<tr>                                       
+ <th> Name </th>                        
+ <th> Roll Number </th>
+ <th colspan="2"> Subject </th>                <!-- colspam is written in Thead and merge 2 columns into one -->
+ <th> Marks </th>
+</tr>
+</thead>
+                    
+<tbody>
+ <tr>
+<td> Aditya </td>                   
+<td> 04 </td>
+<td> Math </td>
+<td> Physics </td>  
+<td rowspan="2"> 100 </td>                 <!-- rowspan is written in TBody and merge 2 rows into one -->
+</tr>
+                        
+ <tr>
+<td> Vishal </td>
+<td> 05 </td>
+<td> Math </td>
+<td> Physics </td>                          
+ </tr>
+</tbody>
+
+</table>
+<hr />
+<br>
+
+<a href="../index.html"> Click Here To Go On HomePage</a>
+
+</body>
+
+</html>

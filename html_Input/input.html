@@ -1,0 +1,86 @@
+<html lang="en"> 
+    <head>
+        <title> Form-Input-tag </title>
+        <link rel="shortcut icon" href="../image/Form.jpg" type="image/x-icon">
+
+        <style>
+            body {
+
+                background-image: url(../image/Lucario.webp);
+
+                background-size: cover;
+
+            }
+
+        </style>
+
+
+    </head>
+
+    <body>
+        <h3 style="color: bisque; background-color: rgb(40,40,40);"> Form </h3>
+
+        <form>
+            <fieldset>                                                  <!-- fieldset give boundary -->
+
+        <legend style="color: pink;"> User Data </legend>            <!-- used to five text on boundary created by fieldset --> 
+
+            <input type="text" placeholder="Enter Name" >
+            <input type="email" placeholder="Enter Email">
+
+            <label> password : </label>                                 <!-- label is something which is used as alternate of placeholder -->
+            <input type="password"> 
+            <br />
+            <br />
+
+            <label for="ABC"> DOB </label>                              <!-- in Label for the value passed is equal to id in input tag-->
+            <input type="date" name="DOB" id="ABC">
+            <br />
+            <br />
+
+           
+            <label for="A1"> Yes </label>
+            <input type="radio" name="Radio" id="A1">                  <!-- if you will not provide name then it will not stored in database-->
+            
+            Are you Eighteen now <br /> 
+
+            <label for="B1"> NO </label>
+            <input type="radio" name="Radio" id="B1">
+
+            <!-- radio 1 and 2 have same name "Radio" because at a time you can whether select yes or -->
+
+            <br />
+            <br />
+
+            <label for="HEHe"> Choose / Select </label>
+            <select name="Selected" id="HEHe">
+                
+                <option value="1"> select 1 </option>
+                <option value="2"> select 2 </option>
+                <option value="3"> select 3 </option>
+
+            </select>
+            <br />
+            <br />
+
+            <label for="for_&_id_is_same"> Description </label>
+            <textarea name="aaa" id="for_&_id_is_same" cols="30" rows="10" placeholder="Write text"></textarea>
+
+            <br />
+            <br />
+
+            <label for="C1"> I Agree </label>
+            <input type="checkbox" id="C1" >
+            
+
+        </fieldset>
+
+
+
+
+        </form>
+       <a href="../index.html">Click to Home</a> 
+    </body>
+
+
+</html>
